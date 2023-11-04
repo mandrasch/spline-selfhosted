@@ -51,7 +51,13 @@ Use "Download bundled zip (Web content)" here:
 
 ![screenshot spline export vanillajs dialog](screenshot_export_vanillajs.png)
 
-Unzip it and place it into `public/3d-models`
+Unzip it and place the `scene.splinecode` file into `public/3d-models`.
+
+Instead of loading the scene from the spline server, we use the local file:
+
+```
+spline.load('/3d-models/planet/scene.splinecode');
+```
 
 3. Add `<canvas>` to index.html, add spline JS code to main.js
 
