@@ -2,7 +2,7 @@
 
 import './style.css'
 
-// Import spline scene: 
+// Import spline scene via vanillajs runtime: 
 
 import { Application } from '@splinetool/runtime';
 
@@ -15,6 +15,9 @@ spline.load('/3d-models/planet/scene.splinecode');
 
 // TODO: does not work?
 spline.setBackgroundColor('red');
+
+// import spline viewer webcomponent
+import { SplineViewer } from '@splinetool/viewer';
 
 // Vite scaffold demo code:
 // import javascriptLogo from './javascript.svg'

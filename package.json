@@ -12,6 +12,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "@splinetool/runtime": "^0.9.493"
+    "@splinetool/runtime": "^0.9.493",
+    "@splinetool/viewer": "^0.9.493"
   }
 }
