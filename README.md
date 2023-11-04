@@ -4,8 +4,7 @@
 
 Demo: 
 
-- https://spline-selfhosted.vercel.app/
-- GDPR check: https://webbkoll.dataskydd.net/de/status?id=ba2a8f80-53c4-46ad-bfdf-d0e640e2bd68
+- https://spline-selfhosted.vercel.app/ ([GDPR check](https://webbkoll.dataskydd.net/de/results?url=http%3A%2F%2Fspline-selfhosted.vercel.app%2F))
 
 Used libraries:
 
