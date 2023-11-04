@@ -1,6 +1,6 @@
 # spline-selfhosted
 
-- demo repository to show selfhosting of spline (vanillajs) without 3rd party connections
+- demo repository to show selfhosting of spline 3D scene export (vanillajs) without 3rd party connections
 
 Demo: 
 
