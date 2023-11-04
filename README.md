@@ -1,27 +1,39 @@
 # spline-selfhosted
 
-- demo repository to show selfhosting of spline (vanillajs)
-- goal: GDPR-compatibility (no 3rd party connections / cookies)
+- demo repository to show selfhosting of spline (vanillajs) without 3rd party connections
+
+Demo: 
+
+- https://spline-selfhosted.vercel.app/
+- GDPR check: https://webbkoll.dataskydd.net/de/status?id=ba2a8f80-53c4-46ad-bfdf-d0e640e2bd68
 
 Used libraries:
 
 - vite
 - spline vanillajs runtime (https://www.npmjs.com/package/@splinetool/runtime)
 
-Setup via:
+## Goals
+
+- [x] GDPR-compatibility (no 3rd party connections / no cookies), checked with https://webbkoll.dataskydd.net/de/results?url=http%3A%2F%2Fspline-selfhosted.vercel.app%2F
+- [ ] transparent background -> setBackgroundColor()?
+- [ ] Follow mouse cursor 
+- [ ] Use click events --> Handling events outside of Spline (https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878), like here  https://2giomw.csb.app/
+- [ ] Use preload? https://www.npmjs.com/package/@splinetool/runtime#preloading-your-scene
+
+## Local setup
 
 ```
 npm install 
 npm run dev
 ```
 
+## How was this created?
+
 Spline offers several ways to export code, see: [Exporting as Code
 ](https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878). There is also a Web Component available: 
 [spline-viewer](https://viewer.spline.design/).
 
-## How was this created?
-
-We use the vanillajs runtime in this example.
+We use the vanillajs runtime (https://www.npmjs.com/package/@splinetool/runtime) in this example.
 
 1. Scaffold vite project, install spline runtime (vanillajs)
 
@@ -43,8 +55,6 @@ Unzip it and place it into `public/3d-models`
 
 3. Add `<canvas>` to index.html, add spline JS code to main.js
 
-## Further goals
+## Credits
 
-- [ ] transparent background
-- [ ] Follow mouse cursor 
-- [ ] Use click events --> Handling events outside of Spline (https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878)
+- 3D Model example from spline: Planet (https://spline.design/examples)
