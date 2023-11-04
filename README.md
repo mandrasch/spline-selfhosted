@@ -55,7 +55,7 @@ Unzip it and place the `scene.splinecode` file into `public/3d-models`.
 
 Instead of loading the scene from the spline server, we use the local file:
 
-```
+```js
 spline.load('/3d-models/planet/scene.splinecode');
 ```
 
