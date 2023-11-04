@@ -16,7 +16,7 @@ Demo:
 - [x] GDPR-compatibility (no 3rd party connections / no cookies), checked with https://webbkoll.dataskydd.net/de/results?url=http%3A%2F%2Fspline-selfhosted.vercel.app%2F
 - [ ] vanillajs: transparent background -> setBackgroundColor()?
 - [ ] vanillajs: Follow mouse cursor 
-- [ ] vanillajs: Use click events --> Handling events outside of Spline (https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878), like this awesome demo here: https://2giomw.csb.app/ (react)
+- [ ] vanillajs: Use click events --> Handling events outside of Spline (https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878)
 - [ ] vanillajs: Use preload? https://www.npmjs.com/package/@splinetool/runtime#preloading-your-scene
 
 ## Local setup
