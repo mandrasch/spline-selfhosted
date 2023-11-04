@@ -11,11 +11,6 @@ Demo:
 
 - https://spline-selfhosted.vercel.app/ ([GDPR check](https://webbkoll.dataskydd.net/de/results?url=http%3A%2F%2Fspline-selfhosted.vercel.app%2F))
 
-Used libraries:
-
-- vite
-- spline vanillajs runtime (https://www.npmjs.com/package/@splinetool/runtime)
-
 ## Goals
 
 - [x] GDPR-compatibility (no 3rd party connections / no cookies), checked with https://webbkoll.dataskydd.net/de/results?url=http%3A%2F%2Fspline-selfhosted.vercel.app%2F
@@ -95,3 +90,8 @@ import { SplineViewer } from '@splinetool/viewer';
 ## Credits
 
 - 3D Model example from spline: Planet (https://spline.design/examples)
+
+### Resources
+
+- Spline runtime docs: https://docs.spline.design/77c32288501a479fa8bc5e787f1e0878
+- Spline viewer docs: https://docs.spline.design/67b4c8ec0d2b46dd8588a99a7e94db6e
