@@ -1,9 +1,11 @@
+// Vite scaffold demo code:
+
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
-document.querySelector('#app').innerHTML = `
+document.querySelector('#app .vite-demo-content').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -22,3 +24,14 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+// Import spline scene: 
+
+import { Application } from '@splinetool/runtime';
+
+// make sure you have a canvas in the body
+const canvas = document.getElementById('canvas3d');
+
+// start the application and load the scene (selfhosted)
+const spline = new Application(canvas);
+spline.load('/3d-models/planet/scene.splinecode');
